@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Playlist Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>MyMusic</h2>
+        <ul>
+            <li><i class="fa fa-home"></i>Home</li>
+        </ul>
+
+        <ul>
+            <li><i class="fa fa-music"></i>Playlist</li>
+        </ul>
+
+        <ul>
+            <li><i class="fa fa-microphone-lines"></i>Artist</li>
+        </ul>
+
+        <ul>
+            <li><i class="fa fa-heart"></i>Favorite</li>
+        </ul>
+
+        <ul>
+            <li><i class="fa fa-cog"></i>Setting</li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <h1>My Playlist</h1>
+
+        <div class="playlist-grid">
+
+            <a href="#player1" class="playlist-card">
+                <img src="./images/Imara Joyce – Almasihu (feat_ Solomon Lange)(2022) Download Mp3.jpg" alt="Album1" class="album-cover">
+
+                <button class="fake-play-button">
+                    <i class="fa fa-play"></i>
+                </button>
+                        <div class="playlist-title">
+                            Joyful Soul
+                        </div>
+            </a>
+        </div>
+
+        <div class="playlist-grid">
+
+            <a href="#player2" class="playlist-card">
+                <img src="./images/YAH.jpg" alt="Album2" class="album-cover">
+
+                <button class="fake-play-button">
+                    <i class="fa fa-play"></i>
+                </button>
+                        <div class="playlist-title">
+                            YAH
+                        </div>
+            </a>
+        </div>
+
+        <div class="playlist-grid">
+
+            <a href="#player3" class="playlist-card">
+                <img src="./images/Album Cover Art Check next slide for Before.jpg" alt="Album3" class="album-cover">
+
+                <button class="fake-play-button">
+                    <i class="fa fa-play"></i>
+                </button>
+                        <div class="playlist-title">
+                            Yesu
+                        </div>
+            </a>
+        </div>
+
+        <div class="player-popup" id="player1">
+
+            <div class="player-content">
+
+                <a href="#" class="close-btn">&times;</a>
+
+                <img src="./images/Joyful.jpg" alt="music1">
+                <h2>Joyful Soul</h2>
+                <button class="play-btn"><i class="fa fa-play"></i></button>
+
+            </div>
+
+
+        </div>
+
+        <div class="player-popup" id="player2">
+
+            <div class="player-content">
+
+                <a href="#" class="close-btn">&times;</a>
+
+                <img src="./images/Eternal.jpg" alt="music2">
+                <h2>YAH</h2>
+                <button class="play-btn"><i class="fa fa-play"></i></button>
+
+            </div>
+            
+
+        </div>
+
+        <div class="player-popup" id="player3">
+
+            <div class="player-content">
+
+                <a href="#" class="close-btn">&times;</a>
+
+                <img src="./images/Yesu.jpg" alt="music3">
+                <h2>Yesu</h2>
+                <button class="play-btn"><i class="fa fa-play"></i></button>
+
+            </div>
+            
+
+        </div>
+
+    </div>
+</body>
+</html>
