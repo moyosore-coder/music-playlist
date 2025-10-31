@@ -151,6 +151,12 @@ h1 {
 
 /* Responsive Sidebar */
 
+@media (max-width: 300px) {
+    .playlist-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (min-width: 1024px) {
 
    /* .sidebar {
